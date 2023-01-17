@@ -5,14 +5,12 @@ using UnityEngine;
 public class AnimatorControllerTriggers : MonoBehaviour
 {
     private Animator anim;
-
-    // Start is called before the first frame update
+        
     void Start()
     {
         anim = GetComponent<Animator>();
     }
-
-    // Update is called once per frame
+        
     void Update()
     {
         /* You can copy the block of code below as many times as you like to have different actions happen for different keys! 
